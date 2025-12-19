@@ -46,10 +46,10 @@ The temporal evolution appears to be a seasonal stationary process (there is no 
 ### Analysis of Stationarity of the Series 
 
 There is seasonality around lag 140 in the monthly mean sunspots series.
-By first-order differencing, the series became stationary around the mean. However, the first series exhibits variance that increases over time (heteroscedasticity).
+By first-order differencing, the series became stationary around the mean. However, the series exhibits variance that increases over time (heteroscedasticity).
 Thus, we used a VAR model with robust errors to account for heteroscedasticity.
 
-Based on the p-value, the original series are not stationary due we do not reject the null hypothesis. However, for the differenced series, we do reject the null hypothesis at the significance level of 5%. I also used the PhillipsPerron because it supports heterocedasticity and the conclusion is the same.
+Based on the p-value, the original series are weakly stationary due we do reject the null hypothesis. For the differenced series, we do reject the null hypothesis at the significance level of 5%. I also used the PhillipsPerron because it supports heterocedasticity and the conclusion is the same.
 
 ### Correlation and cross-correlation analysis
 For the stationary series (the differenced ones) $price\_lag1$ and $sunspots\_lag1$, we see a low correlation between them: 
