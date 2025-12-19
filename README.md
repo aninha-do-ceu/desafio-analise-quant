@@ -20,10 +20,8 @@ The project implements a set of quantitative techniques commonly used in time se
 
 - Differencing to achieve stationarity
 - Correlation and cross-correlation analysis
-![Autocorrelation](autocorrelation_series.png)
 - Implementation of Vector Autoregressive Model to analyse dependencies along lags.
 - Bootstrap Method to resample and refit models to robust inference.
-![Marginal Density of Coefficients](marginal_density_coef.png)
 - Causality Tests
 
 ### Inference
@@ -37,7 +35,12 @@ The metrics used to
 
 ![Table with Statistics of Coefficients](table_stats_coef.png)
 
-These metrics allow for an objective assessment of relationships, predictive performance, and structural similarities between series.
+#### Correlation and cross-correlation analysis
+![Autocorrelation](autocorrelation_series.png)
+
+#### Marginal Density of Coefficients
+
+![Marginal Density of Coefficients](marginal_density_coef.png)
 
 ### Conclusion
 
